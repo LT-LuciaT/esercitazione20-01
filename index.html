@@ -3,11 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <h1>don't trust the moon, it's always changing</h1>
 
+    <form action="formShop">
+      <div>
+        <label for="name">Nome</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="ownerName">Propreitario</label>
+        <input type="text" id="ownerName" />
+      </div>
+      <div>
+        <label for="species">Specie</label>
+        <input type="text" id="species" />
+      </div>
+      <div>
+        <label for="race">Razza</label>
+        <input type="text" id="race" />
+      </div>
+      <button type="submit">Aggiungi</button>
+      <button type="button">Cancella dati</button>
+    </form>
     <script src="obj.js"></script>
   </body>
 </html>

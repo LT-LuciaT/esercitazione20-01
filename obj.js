@@ -7,3 +7,8 @@ class user {
   }
 }
 console.log(user);
+
+const form = document.getElementById("formShop");
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+});
